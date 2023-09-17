@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container{
+    margin: 50px auto;
+    width: 300px;
+    border: 1px solid #CCC;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.2);
+
+}
+
+input[type="number"], select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor:context-menu;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 18px;
+}
